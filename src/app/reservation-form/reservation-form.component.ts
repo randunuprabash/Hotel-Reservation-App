@@ -13,7 +13,6 @@ export class ReservationFormComponent implements OnInit {
   constructor(private formBuilder : FormBuilder){}
 
   onSubmit() {
-    console.log("Workingggg")
     if(this.reservationForm.valid){
       console.log('Valid')
     }
