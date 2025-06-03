@@ -9,12 +9,16 @@ import { ReservationService } from '../reservation/reservation.service';
 })
 export class ReservationListComponent implements OnInit {
 
-  reservations : Reservation[] = []
+  reservations: Reservation[] = []
 
-  constructor(private reservationService : ReservationService){}
+  constructor(private reservationService: ReservationService) { }
 
   ngOnInit(): void {
     this.reservations = this.reservationService.getReservations()
+  }
+
+  deleteReservation(id: String) {
+    this.reservationService.deleteReservation(id);
   }
 
 }
