@@ -1,6 +1,7 @@
 # HotelApp
 * Hotel reservation app with create, view, edit and delete reservations features.
-* Developed to demonstrate the Angular Features.
+* Developed to demonstrate the main Angular Features.
+* Embedded with the browser local storage
 
 ### Getting Started
 * First Clone the project
